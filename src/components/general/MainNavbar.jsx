@@ -13,13 +13,13 @@ function MainNavbar(props) {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
             <Nav.Link as={Link} to='/'>
-              Home
+              Context
             </Nav.Link>
-            <NavDropdown title='Helpers' id='basic-nav-dropdown'>
+            {/* <NavDropdown title='Helpers' id='basic-nav-dropdown'>
               <NavDropdown.Item as={Link} to='/use-state-page'>
                 useState
-              </NavDropdown.Item>
-              {/* <NavDropdown.Item href='#action/3.2'>
+              </NavDropdown.Item> */}
+            {/* <NavDropdown.Item href='#action/3.2'>
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
@@ -27,7 +27,7 @@ function MainNavbar(props) {
               <NavDropdown.Item href='#action/3.4'>
                 Separated link
               </NavDropdown.Item> */}
-            </NavDropdown>
+            {/* </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

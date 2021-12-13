@@ -9,8 +9,7 @@ function HomePage() {
       <Row className='justify-content-center'>
         <Col sm={12}>
           <Content width='w-100' cssClassNames='bg-light'>
-            <h1>Home Page</h1>
-            <h4>COPY ME ...</h4>
+            <h1>React Context</h1>
           </Content>
         </Col>
       </Row>
